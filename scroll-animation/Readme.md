@@ -11,3 +11,5 @@
 
 ## 核心
 将NodeList使用getBoundingClientRect().top来获得该节点在视窗中的位置，最后添加css样式
+
+Element.getBoundingClientRect() 方法返回一个 DOMRect 对象，其提供了元素的大小及其相对于视口的位置。 DOMRect 对象，是包含整个元素的最小矩形（包括 padding 和 border-width）。该对象使用 left、top、right、bottom、x、y、width 和 height 这几个以像素为单位的只读属性描述整个矩形的位置和大小
