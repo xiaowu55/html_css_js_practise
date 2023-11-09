@@ -6,10 +6,13 @@
 
 body {
     background-color: #eafbff;
-    background-image: linear-gradient(to bottom #eafbff 0%,
-            #eafbff 50%,
-            #5290f9 50%,
-            #5290f9 100%);
+    background-image: linear-gradient(
+        to bottom,
+        #eafbff 0%,
+        #eafbff 50%,
+        #5290f9 50%,
+        #5290f9 100%
+      );
     font-family: 'Muli', sans-serif;
     display: flex;
     align-items: center;
@@ -94,13 +97,12 @@ nav ul a {
 .icon .line2 {
     top: auto;
     bottom: 10px;
-  }
-  
-  nav.active .icon .line1 {
+}
+
+nav.active .icon .line1 {
     transform: rotate(-765deg) translateY(5.5px);
-  }
-  
-  nav.active .icon .line2 {
+}
+
+nav.active .icon .line2 {
     transform: rotate(765deg) translateY(-5.5px);
-  }
-  
+}
