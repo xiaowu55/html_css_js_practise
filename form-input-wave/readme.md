@@ -1,5 +1,5 @@
 # progress-steps
-目的是实现有意思的表单
+目的是实现有意思的表单,海浪效果
 
 ## 实现原理
 1. transition-delay:${idx * 50}ms
